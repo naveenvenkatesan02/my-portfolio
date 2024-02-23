@@ -17,7 +17,7 @@ const Contact = () => {
     setPhone("");
     setMsg("");
     await axios
-      .post("http://localhost:8000/email", {
+      .post("https://my-portfolio-api-g8v1.onrender.com/email", {
         name,
         email,
         phone,
