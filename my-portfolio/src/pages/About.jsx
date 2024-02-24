@@ -16,12 +16,15 @@ const About = () => {
         <div className="pt-[150px]">
           <h1 className="text-[#00df9a] uppercase text-3xl">About me</h1>
           <p>
-            Developers are individuals who specialize in creating software
-            applications, websites, or other technological solutions. They
-            typically possess skills in programming languages such as Python,
-            Java, JavaScript, C++, and many others. Developers may work in
-            various fields such as web development, mobile app development, game
-            development, artificial intelligence, or data science.
+            For the past one year, I've been working as an automation tester
+            using Selenium and now I'm looking forward to change my domain to
+            development. I'm quite well-versed in both frontend and backend
+            development, making me a great asset for anyone seeking full-stack
+            developer or any developer expertise. Apart from that, I leverage my
+            knowledge to be creative whenever I get the chance to stand out from
+            the rest of the competitors. I'm more of a conceptual learner, so I
+            can adapt quickly to any new technology. Overall, I believe I will
+            add great value to any organization that I work for.
           </p>
         </div>
         <div className="pt-10 ml-[100px] mr-[100px]">
