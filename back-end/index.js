@@ -8,7 +8,7 @@ const { engine } = require("express-handlebars");
 const router = express.Router();
 app.engine("hbs", engine({ extname: ".hbs", defaultLayout: false }));
 app.set("view engine", "hbs");
-app.use(express.static(path.join(__dirname + "/public")))
+app.use(express.static(path.join(__dirname + "/public")));
 app.set("views", path.join(__dirname, "views"));
 app.use(cors());
 app.use(express.json());
@@ -49,6 +49,9 @@ app.post("/email", async (req, res) => {
               return console.log(error);
             }
             console.log("Message sent: %s", info.messageId);
+            res.json({
+              message: "Mail Sent Successfully",
+            });
           });
         }
       }

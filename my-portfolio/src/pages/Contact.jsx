@@ -25,6 +25,12 @@ const Contact = () => {
       })
       .then((res) => {
         console.log(res);
+
+        alert("Mail Sent Successfully");
+      })
+      .catch((err) => {
+        alert("Failed");
+        console.log(err);
       });
   }
   return (
